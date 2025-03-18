@@ -5,7 +5,7 @@ const Tlight = () => {
     const [selected, setSelected] = useState("red"); 
 
     return (
-        <div>
+            <div className="TrafficLightPhoto">
             <div className="pole"></div>
             <div className="trafficLight">
                 <div 

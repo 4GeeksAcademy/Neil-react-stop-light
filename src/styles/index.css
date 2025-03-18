@@ -1,54 +1,66 @@
 .pole {
-    margin: auto;
-    height: 100px;
-    width: 25px;
-    background-color: black;
+  margin: auto;
+  height: 100px;
+  width: 25px;
+  background-color: black;
 }
 
 .trafficLight {
-    margin: auto;
-    height: 460px;
-    width: 225px;
-    background-color: black;
-    padding-top: 5px;
+  margin: auto;
+  height: 460px;
+  width: 225px;
+  background-color: black;
+  padding-top: 5px;
 }
 
 .red {
-    margin: auto;
-    background: red;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; 
-   }
+  margin: auto;
+  background: red;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+}
    
 .yellow {
-    margin: auto;
-    background: yellow;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; 
-   }
+  margin: auto;
+  background: yellow;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+}
 
 .green {
-    margin: auto;
-    background: green;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; 
-   }
+  margin: auto;
+  background: green;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+}
+
+.TrafficLightPhoto {
+  background-image: url("https://images8.alphacoders.com/888/thumb-1920-888559.jpg");
+  background-size: cover;  
+  background-position: center; 
+  height: 100vh;  
+  justify-content: center;
+
+}
+
+
+ 
 
 .lightGlow {
-    box-shadow: 0 0 15px 5px;
-  }
+  box-shadow: 0 0 15px 5px;
+}
   
 .red.lightGlow {
-    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7); /* Red glow */
-  }
+  box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7); 
+}
   
 .yellow.lightGlow {
-    box-shadow: 0 0 15px 5px rgba(255, 255, 0, 0.7); /* Yellow glow */
-  }
+  box-shadow: 0 0 15px 5px rgba(255, 255, 0, 0.7); 
+}
   
 .green.lightGlow {
-    box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.7); /* Green glow */
-  }
+  box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.7); 
+}
