@@ -8,11 +8,12 @@ import "bootstrap"
 // index.css'
 import '../styles/index.css'
 
+
 // components
-import Home from './components/Home';
+import Tlight from './components/Tlight';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <Tlight />
   </React.StrictMode>,
-)
+);
