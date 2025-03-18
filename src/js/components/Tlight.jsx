@@ -1,27 +1,27 @@
 import React, { useState } from 'react';
-import "../../styles/index.css"
-
-
+import "../../styles/index.css";
 
 const Tlight = () => {
-    const [color, setColor] = useState("red");
+    const [selected, setSelected] = useState("red"); 
 
     return (
         <div>
             <div className="pole"></div>
             <div className="trafficLight">
-                
-                <div className="red"></div>
-                
-                <div className="yellow"></div>
-                
-                <div className="green"></div>
+                <div 
+                    onClick={() => { setSelected("red") }} 
+                    className={selected == "red" ? "lightGlow red" : "red"}
+                ></div>
+                <div 
+                    onClick={() => { setSelected("yellow") }} 
+                    className={selected == "yellow" ? "lightGlow yellow" : "yellow"}
+                ></div>
+                <div 
+                    onClick={() => { setSelected("green") }} 
+                    className={selected == "green" ? "lightGlow green" : "green"}
+                ></div>
             </div>
-
         </div>
-
-
-
     );
 };
 

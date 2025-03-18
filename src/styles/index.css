@@ -37,17 +37,18 @@
     border-radius: 50%; 
    }
 
-.glowing-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: 2px solid #4a90e2;
-    background-color: transparent;
-    color: #4a90e2;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: box-shadow 0.2s ease-in-out;
+.lightGlow {
+    box-shadow: 0 0 15px 5px;
   }
   
-.glowing-button.active-glow {
-    box-shadow: 0 0 10px 3px rgba(74, 144, 226, 0.7);
+.red.lightGlow {
+    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7); /* Red glow */
+  }
+  
+.yellow.lightGlow {
+    box-shadow: 0 0 15px 5px rgba(255, 255, 0, 0.7); /* Yellow glow */
+  }
+  
+.green.lightGlow {
+    box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.7); /* Green glow */
   }
